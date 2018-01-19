@@ -1,0 +1,28 @@
+{
+  "name": "BurgerTime",
+  "version": "1.0.0",
+  "description": "12th Homework Assignment for UCI Coding Bootcamp - create a burger logger with MySQL, Node, Express, Handlebars and ORM.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jMac029/BurgerTime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jMac029/BurgerTime/issues"
+  },
+  "homepage": "https://github.com/jMac029/BurgerTime#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
