@@ -62,11 +62,10 @@ let orm = {
 
         console.log(queryString);
 
-        connection.query(queryString, vals, (err, result) => {
+        connection.query(queryString, vals, function(err, result) {
             if (err) {
                 throw err;
             }
-
             cb(result);
         });
     },
@@ -80,11 +79,10 @@ let orm = {
         queryString += condition;
 
         console.log(queryString);
-        connection.query(queryString, (err, result) => {
+        connection.query(queryString, function(err, result) {
             if (err) {
                 throw err;
             }
-
             cb(result);
         });
     },
